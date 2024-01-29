@@ -1,4 +1,0 @@
-[submodule "src/test/mocks/sfdx-project-mock"]
-	path = src/test/mocks/sfdx-project-mock
-	url = git@github.com:catalandres/sfdx-project-mock.git
-	branch = main
