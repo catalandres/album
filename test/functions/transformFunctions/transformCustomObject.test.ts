@@ -1,4 +1,4 @@
-import * as Function from "../src/functions/index";
+import * as Function from "../../../src/functions/index";
 
 describe("Transform function transformCustomObject", () => {
 
