@@ -1,6 +1,6 @@
 import * as Function from '../../../src/functions/index';
 
-describe("Name function getFullNameValue", () => {
+describe("Function getFullNameValue", () => {
 
   test("returns fullName when fullName is present", () => {
     const record: Record<string, unknown> = {};

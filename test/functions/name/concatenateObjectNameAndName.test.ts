@@ -1,6 +1,6 @@
 import * as Function from '../../../src/functions/index';
 
-describe('Name function concatenateObjectNameAndName', () => {
+describe('Function concatenateObjectNameAndName', () => {
 
     test('concatenates objectName and name when both are present', () => {
         const record: Record<string, unknown> = {};

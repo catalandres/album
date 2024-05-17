@@ -1,6 +1,6 @@
 import * as Function from "../../../src/functions/index";
 
-describe("Transform function transformCustomObject", () => {
+describe("Function transformCustomObject", () => {
 
   test('identifies custom objects', () => {
     const object: Record<string, unknown> = {};

@@ -1,6 +1,6 @@
 import * as Function from '../../../src/functions/index';
 
-describe("Name function getSecondHalfOfBasenameSplitByDash", () => {
+describe("Function getSecondHalfOfBasenameSplitByDash", () => {
 
   test("returns second part without extension when fileName has two parts", () => {
     const record: Record<string, unknown> = {};

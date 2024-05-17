@@ -20,7 +20,8 @@ export function concatenateObjectNameAndName(record: Record<string, unknown>): s
 }
 
 export function getBasenameWithoutExtension(record: Record<string, unknown>): string {
-  const extension = getMetadataExtension(record.fileName as string);
+  const fileName = record.fileName as string || '';
+  const extension = getMetadataExtension(fileName);
   return path.basename(record.fileName as string || '').replace(extension, '');
 }
 

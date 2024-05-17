@@ -1,6 +1,6 @@
 import * as Function from '../../../src/functions/index';
 
-describe("Name function getBasenameWithoutExtension", () => {
+describe("Function getBasenameWithoutExtension", () => {
 
   test("returns fileName without extension when fileName is well formed", () => {
     const record: Record<string, unknown> = {};

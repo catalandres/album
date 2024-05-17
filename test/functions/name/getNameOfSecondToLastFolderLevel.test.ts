@@ -1,6 +1,6 @@
 import * as Function from '../../../src/functions/index';
 
-describe("Name function getNameOfSecondToLastFolderLevel", () => {
+describe("Function getNameOfSecondToLastFolderLevel", () => {
 
   test('returns correct value when fileName is well formed', () => {
       const record: Record<string, unknown> = {};
